@@ -1,0 +1,26 @@
+{
+	"timing_type": {
+		"display_name": "Metric",
+		"definition": "The metric being tested."
+	},
+	"timing_framework": {
+		"display_name": "Framework",
+		"definition": "The framework being tested."
+	},
+	"total_dur": {
+		"display_name": "Total Duration",
+		"definition": "The total duration of the user interaction event, code execution, and the browser's rendering process. Click Duration + Render After Click."
+	},
+	"click_dur": {
+		"display_name": "Click Duration",
+		"definition": "The duration of the user interaction and the resulting code execution."
+	},
+	"render_during_click": {
+		"display_name": "Render During Click",
+		"definition": "The duration of the browser's rendering process while code is being executed from the user interaction. This timing is not calculated in the Total Duration."
+	},
+	"render_after_click": {
+		"display_name": "Render After Click",
+		"definition": "The duration of the browser's rendering process after the user interaction and code execution is complete."
+	}
+}

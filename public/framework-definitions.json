@@ -1,0 +1,32 @@
+{
+	"react": {
+		"display_name": "React",
+		"definition": "",
+		"url": "https://github.com/facebook/react"
+	},
+	"web-component": {
+		"display_name": "Web Component",
+		"definition": "",
+		"url": "https://developer.mozilla.org/en-US/docs/Web/Web_Components"
+	},
+	"vue": {
+		"display_name": "Vue",
+		"definition": "",
+		"url": "https://github.com/vuejs/vue"
+	},
+	"rust-fel": {
+		"display_name": "Rust-fel",
+		"definition": "",
+		"url": "https://github.com/tostaylo/rust-fel"
+	},
+	"rust-wasm": {
+		"display_name": "Rust-WASM",
+		"definition": "",
+		"url": "https://github.com/rustwasm"
+	},
+	"javascript": {
+		"display_name": "JavaScript",
+		"definition": "",
+		"url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+	}
+}
