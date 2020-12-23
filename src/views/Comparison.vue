@@ -110,7 +110,7 @@ const Component = defineComponent({
     this.timingSelectType = timingTypeSortOptions[0];
 
     this.defaultTimingResults4x = (await fetchData<TimingResult[]>(
-      "/trace_results.4x_slowdown.json"
+      "/trace-results.throttle-4x.json"
     )) as TimingResult[];
   },
 

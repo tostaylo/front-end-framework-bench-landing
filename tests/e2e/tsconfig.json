@@ -13,7 +13,6 @@
     // process only spec files
     "./specs/pageRender.ts",
     "./specs/comparison.ts",
-    "./specs/user.ts",
     "./specs/dataRender.ts"
   ]
 }

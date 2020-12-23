@@ -8,6 +8,10 @@
 
 import { Pages } from '../../../src/router/pages';
 const { Comparison } = Pages;
+const frameworkCount = 7;
+const metricCount = 6;
+
+const totalRows = frameworkCount * metricCount;
 
 describe('Sorting and Filtering', () => {
 	it(`It sorts by metrics`, () => {
@@ -15,7 +19,7 @@ describe('Sorting and Filtering', () => {
 		cy.get(`[data-cy=metricFrameworkSelectType]`).select('Metric');
 		cy.get(`[data-cy=TimingType]`)
 			.then(getCells)
-			.then(metricFrameworkSortAssertions);
+			.then((cell) => metricFrameworkSortAssertions(cell, frameworkCount));
 	});
 
 	it(`It sorts by frameworks`, () => {
@@ -23,7 +27,7 @@ describe('Sorting and Filtering', () => {
 		cy.get(`[data-cy=metricFrameworkSelectType]`).select('Framework');
 		cy.get(`[data-cy=TimingFramework]`)
 			.then(getCells)
-			.then(metricFrameworkSortAssertions);
+			.then((cell) => metricFrameworkSortAssertions(cell, metricCount));
 	});
 
 	it(`It sorts by total duration`, () => {
@@ -72,7 +76,7 @@ describe('Sorting and Filtering', () => {
 			.then((cells) => {
 				expect(isRemoved(cells, 'vue')).to.be.true;
 				expect(isRemoved(cells, 'rust-fel')).to.be.false;
-				expect(cells).to.have.length(24);
+				expect(cells).to.have.length(totalRows - metricCount * 2);
 			});
 	});
 
@@ -91,7 +95,7 @@ describe('Sorting and Filtering', () => {
 			.then((cells) => {
 				expect(isRemoved(cells, 'clear-k')).to.be.true;
 				expect(isRemoved(cells, 'ten-k')).to.be.false;
-				expect(cells).to.have.length(24);
+				expect(cells).to.have.length(totalRows - frameworkCount * 2);
 			});
 	});
 	it(`It changes by throttle type`, () => {
@@ -125,15 +129,15 @@ function isRemoved(arr: string[], filterItem: string) {
 }
 
 function timingSortAssertions(timings: string[]) {
-	const slicesArr = createSlices(timings, 6);
+	const slicesArr = createSlices(timings, frameworkCount);
 	for (let i = 0; i < slicesArr.length; i++) {
 		expect(isSortedByNumber(slicesArr[i])).to.be.true;
 	}
 }
 
-function metricFrameworkSortAssertions(metricNames: string[]) {
-	const slicesArr = createSlices(metricNames, 6);
-	expect(metricNames).to.have.length(36);
+function metricFrameworkSortAssertions(metricNames: string[], sliceCount: number) {
+	const slicesArr = createSlices(metricNames, sliceCount);
+	expect(metricNames).to.have.length(totalRows);
 
 	for (let i = 0; i < slicesArr.length; i++) {
 		expect(isSortedByString(slicesArr[i])).to.be.true;

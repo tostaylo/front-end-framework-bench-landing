@@ -4,7 +4,7 @@
 /// <reference types="cypress" />
 
 import { Pages } from '../../../src/router/pages';
-const { HomePage, Frameworks, Metrics, Comparison, Timings, Liked, Account, PageNotFound, AccessDenied } = Pages;
+const { HomePage, Frameworks, Metrics, Comparison, Timings, PageNotFound, AccessDenied } = Pages;
 
 describe('Pages Rendering', () => {
 	it(`Visits the ${HomePage.name}`, () => {
@@ -29,16 +29,6 @@ describe('Pages Rendering', () => {
 	it(`Visits the ${Timings.name}`, () => {
 		cy.visit(Timings.path);
 		cy.contains('h1', Timings.name);
-	});
-
-	it(`Visits the ${Account.name}`, () => {
-		cy.visit(Account.path);
-		cy.contains('h1', Account.name);
-	});
-
-	it(`Visits the ${Liked.name}`, () => {
-		cy.visit(Liked.path);
-		cy.contains('h1', AccessDenied.name);
 	});
 
 	it(`Visits the ${PageNotFound.name}`, () => {
