@@ -5,5 +5,4 @@ export const Pages = {
 	Comparison: { name: 'Comparison', path: '/comparison' },
 	Timings: { name: 'Timings', path: '/timings' },
 	PageNotFound: { name: 'Page Not Found', path: '/:catchAll(.*)' },
-	AccessDenied: { name: 'Access Denied', path: '/denied' },
 };

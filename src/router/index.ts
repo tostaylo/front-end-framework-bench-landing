@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import Home from '../views/Home.vue';
 import { Pages } from '@/router/pages.ts';
-const { HomePage, Frameworks, Metrics, Comparison, Timings, AccessDenied, PageNotFound } = Pages;
+const { HomePage, Frameworks, Metrics, Comparison, Timings, PageNotFound } = Pages;
 
 const routes: Array<RouteRecordRaw> = [
 	{
@@ -29,12 +29,7 @@ const routes: Array<RouteRecordRaw> = [
 		name: Timings.name,
 		component: () => import(/* webpackChunkName: "Timings" */ '../views/Timings.vue'),
 	},
-	{
-		// This is a route we can direct the user to if they try to access a part of the site they don't have privileges for
-		path: AccessDenied.path,
-		name: AccessDenied.name,
-		component: () => import(/* webpackChunkName: "AccessDenied" */ '@/views/AccessDenied.vue'),
-	},
+
 	{
 		path: PageNotFound.path,
 		name: PageNotFound.name,

@@ -8,8 +8,7 @@
 
 import { Pages } from '../../../src/router/pages';
 const { Comparison } = Pages;
-const frameworkCount = 7;
-const metricCount = 6;
+import { frameworkCount, metricCount } from './dataRender';
 
 const totalRows = frameworkCount * metricCount;
 

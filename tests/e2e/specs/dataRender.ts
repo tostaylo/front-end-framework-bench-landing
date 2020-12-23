@@ -5,6 +5,9 @@
 
 import { Pages } from '../../../src/router/pages';
 const { Frameworks, Metrics, Timings } = Pages;
+export const frameworkCount = 7;
+export const metricCount = 6;
+export const timingCount = 6;
 
 describe('Data Rendering', () => {
 	it(`The ${Frameworks.name} page has correct data`, () => {
@@ -12,7 +15,7 @@ describe('Data Rendering', () => {
 
 		cy.get(`[data-cy=${Frameworks.name}]`)
 			.children()
-			.should('have.length', 6);
+			.should('have.length', frameworkCount);
 	});
 
 	it(`The ${Metrics.name} page has correct data`, () => {
@@ -20,13 +23,13 @@ describe('Data Rendering', () => {
 
 		cy.get(`[data-cy=${Metrics.name}]`)
 			.children()
-			.should('have.length', 6);
+			.should('have.length', metricCount);
 	});
 
 	it(`The ${Timings.name} page has correct data`, () => {
 		cy.visit(Timings.path);
 		cy.get(`[data-cy=${Timings.name}]`)
 			.children()
-			.should('have.length', 6);
+			.should('have.length', timingCount);
 	});
 });

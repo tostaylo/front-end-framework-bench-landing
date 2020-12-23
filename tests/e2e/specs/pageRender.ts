@@ -4,7 +4,7 @@
 /// <reference types="cypress" />
 
 import { Pages } from '../../../src/router/pages';
-const { HomePage, Frameworks, Metrics, Comparison, Timings, PageNotFound, AccessDenied } = Pages;
+const { HomePage, Frameworks, Metrics, Comparison, Timings, PageNotFound } = Pages;
 
 describe('Pages Rendering', () => {
 	it(`Visits the ${HomePage.name}`, () => {
