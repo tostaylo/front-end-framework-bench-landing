@@ -51,22 +51,20 @@ const Component = defineComponent({
   },
 
   async mounted() {
-    // run these in parallel
-    this.timingResults = (await fetchData<TimingResult[]>(
-      `/trace-results.no-throttle.json`
-    )) as TimingResult[];
-
-    this.metrics = (await fetchData<Record<string, Definition>>(
+    const trTask = fetchData<TimingResult[]>(`/trace-results.no-throttle.json`);
+    const mrTask = fetchData<Record<string, Definition>>(
       "/metric-definitions.json"
-    )) as Record<string, Definition>;
-
-    this.frameworks = (await fetchData<Record<string, Definition>>(
+    );
+    const frTask = fetchData<Record<string, Definition>>(
       "/framework-definitions.json"
-    )) as Record<string, Definition>;
-
-    this.timings = (await fetchData<Record<string, Definition>>(
+    );
+    const tTask = fetchData<Record<string, Definition>>(
       "/timing-definitions.json"
-    )) as Record<string, Definition>;
+    );
+    this.timingResults = (await trTask) as TimingResult[];
+    this.metrics = (await mrTask) as Record<string, Definition>;
+    this.frameworks = (await frTask) as Record<string, Definition>;
+    this.timings = (await tTask) as Record<string, Definition>;
   },
 });
 export default Component;

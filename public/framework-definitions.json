@@ -28,5 +28,10 @@
 		"display_name": "JavaScript",
 		"definition": "",
 		"url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+	},
+	"svelte": {
+		"display_name": "Svelte",
+		"definition": "",
+		"url": "https://svelte.dev/"
 	}
 }
