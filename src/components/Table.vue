@@ -59,7 +59,8 @@ caption {
 }
 
 th {
-  font-size: 1em;
+  font-size: 1.3em;
+  color: white;
 }
 
 td {
@@ -93,5 +94,7 @@ td:nth-child(2) {
   background: black;
   font-size: 1em;
   font-weight: bold;
+  color: white;
+  opacity: 0.8;
 }
 </style>
