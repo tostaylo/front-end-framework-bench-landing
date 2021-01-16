@@ -81,4 +81,17 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
   background-color: black;
 }
+
+thead,
+table thead th {
+  border: none;
+}
+
+td:nth-child(1),
+td:nth-child(2) {
+  border: none;
+  background: black;
+  font-size: 1em;
+  font-weight: bold;
+}
 </style>

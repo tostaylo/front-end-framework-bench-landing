@@ -271,13 +271,13 @@ const Component = defineComponent({
         {
           name: "metricFrameworkSelectType",
           options: this.metricFrameworkSortOptions,
-          label: "Sort By",
+          label: "Group By",
           sortType: this.metricFrameworkSelectType,
         },
         {
           name: "timingSelectType",
           options: this.timingTypeSortOptions,
-          label: "Then",
+          label: "Then Sort By",
           sortType: this.timingSelectType,
         },
       ];
