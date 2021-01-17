@@ -88,7 +88,7 @@
 
     <p>
       Below is an example screenshot for a performance trace conducted for
-      "Create 10k" (Create 10,000 table rows) using the rust-fel framework.
+      "Create K" (Create 1,000 table rows) using the Vue framework.
     </p>
     <figure class="image-container">
       <figcaption>Performance Timeline</figcaption>
