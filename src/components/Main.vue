@@ -48,7 +48,6 @@
       <li>MacBook Pro (Retina, 15-inch, Mid 2015)</li>
       <li>2.5GHz Quad-Core Intel Core i7 Processor</li>
       <li>16GB 1600 MHz DDR3 Memory</li>
-      <li>Chrome version - HeadlessChrome/86.0.4240.0</li>
     </ul>
     <h3>Disclaimer</h3>
     <p>

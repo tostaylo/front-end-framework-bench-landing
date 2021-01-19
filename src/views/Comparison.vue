@@ -1,6 +1,7 @@
 <template>
   <div class="route-main">
     <h1>{{ pageTitle }}</h1>
+    <h4>{{ meta.date }} | {{ meta.chrome_version }}</h4>
     <div class="form-container">
       <div class="form">
         <div class="throttle-container">
@@ -50,6 +51,11 @@ import Checkboxes from "@/components/Checkboxes.vue";
 import SortSelect from "@/components/SortSelect.vue";
 import { defineComponent } from "vue";
 
+interface Meta {
+  chrome_version: string;
+  date: string;
+}
+
 type MetricFrameworkType = "timing_type" | "timing_framework";
 
 type TimingType =
@@ -83,6 +89,7 @@ const Component = defineComponent({
       timingSelectType: "" as TimingType,
       throttledSelectType: "No throttle" as ThrottleType,
       pageTitle: this.$router.currentRoute.value.name,
+      meta: {} as Meta,
     };
   },
   props: {
@@ -112,6 +119,7 @@ const Component = defineComponent({
     this.defaultTimingResults4x = (await fetchData<TimingResult[]>(
       "/trace-results.throttle-4x.json"
     )) as TimingResult[];
+    this.meta = (await fetchData<Meta>("/meta.json")) as Meta;
   },
 
   methods: {

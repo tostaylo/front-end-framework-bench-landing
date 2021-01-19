@@ -2,9 +2,11 @@
   <div>
     <nav id="nav">
       <span :key="link.name" v-for="(link, idx) in links">
-        <router-link :exact="link.exact" :to="link.url">{{
-          link.name
-        }}</router-link
+        <router-link
+          :data-click="link.name"
+          :exact="link.exact"
+          :to="link.url"
+          >{{ link.name }}</router-link
         ><!-- eslint-disable-next-line vue/no-parsing-error-->
         {{ idx < links.length - 1 ? " | " : "" }}
       </span>
@@ -42,10 +44,10 @@ const Component = defineComponent({
       timings: {} as Record<string, Definition>,
       links: [
         { name: HomePage.name, url: HomePage.path, exact: true },
+        { name: Comparison.name, url: Comparison.path },
         { name: Frameworks.name, url: Frameworks.path },
         { name: Metrics.name, url: Metrics.path },
         { name: Timings.name, url: Timings.path },
-        { name: Comparison.name, url: Comparison.path },
       ],
     };
   },
