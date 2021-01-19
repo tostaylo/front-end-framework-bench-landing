@@ -81,11 +81,11 @@ describe('Sorting and Filtering', () => {
 
 	it(`It filters by metric`, () => {
 		cy.visit(Comparison.path);
-		cy.get(`[data-cy=k]`).uncheck();
+		cy.get(`[data-cy=create-k]`).uncheck();
 		cy.get(`[data-cy=TimingType]`)
 			.then(getCells)
 			.then((cells) => {
-				expect(isRemoved(cells, 'k')).to.be.true;
+				expect(isRemoved(cells, 'create-k')).to.be.true;
 			});
 
 		cy.get(`[data-cy=clear-k]`).uncheck();
@@ -93,7 +93,7 @@ describe('Sorting and Filtering', () => {
 			.then(getCells)
 			.then((cells) => {
 				expect(isRemoved(cells, 'clear-k')).to.be.true;
-				expect(isRemoved(cells, 'ten-k')).to.be.false;
+				expect(isRemoved(cells, 'create-ten-k')).to.be.false;
 				expect(cells).to.have.length(totalRows - frameworkCount * 2);
 			});
 	});
