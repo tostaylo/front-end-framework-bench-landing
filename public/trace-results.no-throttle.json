@@ -1,298 +1,338 @@
 [
   {
     "timing_type": "update-k",
-    "timing_framework": "javascript",
-    "total_dur": 7.761,
-    "click_dur": 0.912,
+    "timing_framework": "web-component",
+    "total_dur": 7.4435,
+    "click_dur": 0.9082,
     "render_during_click": 0.0,
-    "render_after_click": 6.849
+    "render_after_click": 6.5353
+  },
+  {
+    "timing_type": "update-k",
+    "timing_framework": "javascript",
+    "total_dur": 7.458399999999999,
+    "click_dur": 0.8756,
+    "render_during_click": 0.0,
+    "render_after_click": 6.5828
   },
   {
     "timing_type": "update-k",
     "timing_framework": "rust-wasm",
-    "total_dur": 7.983,
-    "click_dur": 1.299,
+    "total_dur": 7.9891000000000005,
+    "click_dur": 1.3331,
     "render_during_click": 0.0,
-    "render_after_click": 6.684
+    "render_after_click": 6.656
   },
   {
-    "timing_type": "update-k",
-    "timing_framework": "web-component",
-    "total_dur": 9.458,
-    "click_dur": 0.984,
+    "timing_type": "clear-k",
+    "timing_framework": "javascript",
+    "total_dur": 9.5338,
+    "click_dur": 8.9831,
     "render_during_click": 0.0,
-    "render_after_click": 8.474
+    "render_after_click": 0.5507000000000001
+  },
+  {
+    "timing_type": "clear-k",
+    "timing_framework": "web-component",
+    "total_dur": 9.625399999999999,
+    "click_dur": 9.083200000000001,
+    "render_during_click": 0.0,
+    "render_after_click": 0.5422
+  },
+  {
+    "timing_type": "clear-k",
+    "timing_framework": "rust-wasm",
+    "total_dur": 9.6875,
+    "click_dur": 9.135399999999999,
+    "render_during_click": 0.0,
+    "render_after_click": 0.5521
   },
   {
     "timing_type": "clear-k",
     "timing_framework": "rust-fel",
-    "total_dur": 9.806,
-    "click_dur": 9.202,
+    "total_dur": 9.7374,
+    "click_dur": 9.1446,
     "render_during_click": 0.0,
-    "render_after_click": 0.604
+    "render_after_click": 0.5928
   },
   {
     "timing_type": "clear-k",
-    "timing_framework": "javascript",
-    "total_dur": 9.992,
-    "click_dur": 9.432,
+    "timing_framework": "react",
+    "total_dur": 11.415299999999998,
+    "click_dur": 10.8723,
     "render_during_click": 0.0,
-    "render_after_click": 0.56
-  },
-  {
-    "timing_type": "clear-k",
-    "timing_framework": "rust-wasm",
-    "total_dur": 10.158,
-    "click_dur": 9.518,
-    "render_during_click": 0.0,
-    "render_after_click": 0.64
-  },
-  {
-    "timing_type": "clear-k",
-    "timing_framework": "web-component",
-    "total_dur": 10.246,
-    "click_dur": 9.692,
-    "render_during_click": 0.0,
-    "render_after_click": 0.554
+    "render_after_click": 0.543
   },
   {
     "timing_type": "clear-k",
     "timing_framework": "vue",
-    "total_dur": 12.458,
-    "click_dur": 11.924,
+    "total_dur": 11.7702,
+    "click_dur": 11.213299999999998,
     "render_during_click": 0.0,
-    "render_after_click": 0.534
+    "render_after_click": 0.5569
   },
   {
     "timing_type": "update-k",
     "timing_framework": "rust-fel",
-    "total_dur": 13.233,
-    "click_dur": 3.88,
+    "total_dur": 13.1666,
+    "click_dur": 3.9877,
     "render_during_click": 0.0,
-    "render_after_click": 9.353
+    "render_after_click": 9.1789
   },
   {
     "timing_type": "update-k",
     "timing_framework": "svelte",
-    "total_dur": 15.629,
-    "click_dur": 4.095,
+    "total_dur": 14.5267,
+    "click_dur": 4.187600000000001,
     "render_during_click": 0.0,
-    "render_after_click": 11.534
+    "render_after_click": 10.3391
   },
   {
     "timing_type": "clear-k",
     "timing_framework": "svelte",
-    "total_dur": 16.253,
-    "click_dur": 15.664,
+    "total_dur": 15.2194,
+    "click_dur": 14.6257,
     "render_during_click": 0.0,
-    "render_after_click": 0.589
+    "render_after_click": 0.5937
   },
   {
     "timing_type": "update-k",
     "timing_framework": "vue",
-    "total_dur": 32.26,
-    "click_dur": 25.847,
+    "total_dur": 31.9844,
+    "click_dur": 25.4915,
     "render_during_click": 0.0,
-    "render_after_click": 6.413
+    "render_after_click": 6.4929
+  },
+  {
+    "timing_type": "update-k",
+    "timing_framework": "react",
+    "total_dur": 32.6286,
+    "click_dur": 23.1802,
+    "render_during_click": 0.0,
+    "render_after_click": 9.4484
   },
   {
     "timing_type": "create-k",
     "timing_framework": "javascript",
-    "total_dur": 71.447,
-    "click_dur": 7.029,
+    "total_dur": 64.38380000000001,
+    "click_dur": 7.038,
     "render_during_click": 0.0,
-    "render_after_click": 64.418
+    "render_after_click": 57.345800000000004
   },
   {
     "timing_type": "update-ten-k",
     "timing_framework": "javascript",
-    "total_dur": 71.81,
-    "click_dur": 5.847,
+    "total_dur": 69.80810000000001,
+    "click_dur": 5.4396,
     "render_during_click": 0.0,
-    "render_after_click": 65.963
+    "render_after_click": 64.3685
   },
   {
     "timing_type": "update-ten-k",
     "timing_framework": "web-component",
-    "total_dur": 74.981,
-    "click_dur": 5.677,
+    "total_dur": 71.65910000000001,
+    "click_dur": 5.7073,
     "render_during_click": 0.0,
-    "render_after_click": 69.304
+    "render_after_click": 65.9518
+  },
+  {
+    "timing_type": "create-k",
+    "timing_framework": "web-component",
+    "total_dur": 71.669,
+    "click_dur": 7.2017,
+    "render_during_click": 0.0,
+    "render_after_click": 64.46730000000001
   },
   {
     "timing_type": "update-ten-k",
     "timing_framework": "rust-wasm",
-    "total_dur": 77.438,
-    "click_dur": 7.732,
+    "total_dur": 73.95389999999999,
+    "click_dur": 7.9095,
     "render_during_click": 0.0,
-    "render_after_click": 69.706
+    "render_after_click": 66.0444
   },
   {
     "timing_type": "create-k",
-    "timing_framework": "web-component",
-    "total_dur": 80.791,
-    "click_dur": 7.956,
+    "timing_framework": "rust-wasm",
+    "total_dur": 85.5398,
+    "click_dur": 22.7042,
     "render_during_click": 0.0,
-    "render_after_click": 72.835
+    "render_after_click": 62.8356
+  },
+  {
+    "timing_type": "clear-ten-k",
+    "timing_framework": "web-component",
+    "total_dur": 95.2752,
+    "click_dur": 94.6833,
+    "render_during_click": 0.0,
+    "render_after_click": 0.5919
+  },
+  {
+    "timing_type": "create-k",
+    "timing_framework": "react",
+    "total_dur": 95.9835,
+    "click_dur": 33.740199999999994,
+    "render_during_click": 0.0,
+    "render_after_click": 62.243300000000005
+  },
+  {
+    "timing_type": "clear-ten-k",
+    "timing_framework": "rust-wasm",
+    "total_dur": 97.43180000000001,
+    "click_dur": 96.83460000000001,
+    "render_during_click": 0.0,
+    "render_after_click": 0.5972000000000001
   },
   {
     "timing_type": "create-k",
     "timing_framework": "svelte",
-    "total_dur": 94.704,
-    "click_dur": 16.529,
+    "total_dur": 97.47810000000001,
+    "click_dur": 16.505599999999998,
     "render_during_click": 0.0,
-    "render_after_click": 78.175
-  },
-  {
-    "timing_type": "create-k",
-    "timing_framework": "rust-wasm",
-    "total_dur": 95.358,
-    "click_dur": 24.717,
-    "render_during_click": 0.0,
-    "render_after_click": 70.641
-  },
-  {
-    "timing_type": "clear-ten-k",
-    "timing_framework": "rust-fel",
-    "total_dur": 99.804,
-    "click_dur": 99.16,
-    "render_during_click": 0.0,
-    "render_after_click": 0.644
-  },
-  {
-    "timing_type": "clear-ten-k",
-    "timing_framework": "web-component",
-    "total_dur": 100.738,
-    "click_dur": 100.156,
-    "render_during_click": 0.0,
-    "render_after_click": 0.582
+    "render_after_click": 80.9725
   },
   {
     "timing_type": "clear-ten-k",
     "timing_framework": "javascript",
-    "total_dur": 102.434,
-    "click_dur": 101.847,
+    "total_dur": 97.6988,
+    "click_dur": 97.0334,
     "render_during_click": 0.0,
-    "render_after_click": 0.587
-  },
-  {
-    "timing_type": "create-k",
-    "timing_framework": "vue",
-    "total_dur": 103.121,
-    "click_dur": 40.033,
-    "render_during_click": 0.0,
-    "render_after_click": 63.088
+    "render_after_click": 0.6654
   },
   {
     "timing_type": "clear-ten-k",
-    "timing_framework": "rust-wasm",
-    "total_dur": 103.57,
-    "click_dur": 102.902,
-    "render_during_click": 0.0,
-    "render_after_click": 0.668
-  },
-  {
-    "timing_type": "clear-ten-k",
-    "timing_framework": "vue",
-    "total_dur": 108.914,
-    "click_dur": 108.291,
-    "render_during_click": 0.0,
-    "render_after_click": 0.623
-  },
-  {
-    "timing_type": "create-k",
     "timing_framework": "rust-fel",
-    "total_dur": 112.252,
-    "click_dur": 43.349,
+    "total_dur": 101.8917,
+    "click_dur": 101.21730000000001,
     "render_during_click": 0.0,
-    "render_after_click": 68.903
+    "render_after_click": 0.6744
+  },
+  {
+    "timing_type": "create-k",
+    "timing_framework": "vue",
+    "total_dur": 102.9448,
+    "click_dur": 39.9558,
+    "render_during_click": 0.0,
+    "render_after_click": 62.989
   },
   {
     "timing_type": "clear-ten-k",
     "timing_framework": "react",
-    "total_dur": 115.788,
-    "click_dur": 115.241,
+    "total_dur": 103.1823,
+    "click_dur": 102.5504,
     "render_during_click": 0.0,
-    "render_after_click": 0.547
+    "render_after_click": 0.6319
+  },
+  {
+    "timing_type": "clear-ten-k",
+    "timing_framework": "vue",
+    "total_dur": 104.30239999999999,
+    "click_dur": 103.69019999999999,
+    "render_during_click": 0.0,
+    "render_after_click": 0.6122000000000001
+  },
+  {
+    "timing_type": "create-k",
+    "timing_framework": "rust-fel",
+    "total_dur": 104.74980000000001,
+    "click_dur": 41.0357,
+    "render_during_click": 0.0,
+    "render_after_click": 63.7141
   },
   {
     "timing_type": "update-ten-k",
     "timing_framework": "rust-fel",
-    "total_dur": 141.974,
-    "click_dur": 35.219,
+    "total_dur": 133.2246,
+    "click_dur": 34.2169,
     "render_during_click": 0.0,
-    "render_after_click": 106.755
+    "render_after_click": 99.0077
   },
   {
     "timing_type": "update-ten-k",
     "timing_framework": "svelte",
-    "total_dur": 149.943,
-    "click_dur": 34.941,
+    "total_dur": 135.7992,
+    "click_dur": 33.530300000000004,
     "render_during_click": 0.0,
-    "render_after_click": 115.002
+    "render_after_click": 102.26889999999999
   },
   {
     "timing_type": "clear-ten-k",
     "timing_framework": "svelte",
-    "total_dur": 165.05,
-    "click_dur": 164.004,
+    "total_dur": 150.1609,
+    "click_dur": 149.5785,
     "render_during_click": 0.0,
-    "render_after_click": 1.046
+    "render_after_click": 0.5824
   },
   {
     "timing_type": "update-ten-k",
     "timing_framework": "vue",
-    "total_dur": 182.161,
-    "click_dur": 117.774,
+    "total_dur": 174.5435,
+    "click_dur": 109.9466,
     "render_during_click": 0.0,
-    "render_after_click": 64.387
+    "render_after_click": 64.5969
+  },
+  {
+    "timing_type": "update-ten-k",
+    "timing_framework": "react",
+    "total_dur": 199.7969,
+    "click_dur": 100.14189999999999,
+    "render_during_click": 0.0,
+    "render_after_click": 99.655
   },
   {
     "timing_type": "create-ten-k",
     "timing_framework": "javascript",
-    "total_dur": 708.391,
-    "click_dur": 64.0,
+    "total_dur": 691.9833000000001,
+    "click_dur": 62.261900000000004,
     "render_during_click": 0.0,
-    "render_after_click": 644.391
+    "render_after_click": 629.7214
   },
   {
     "timing_type": "create-ten-k",
     "timing_framework": "web-component",
-    "total_dur": 739.599,
-    "click_dur": 66.246,
+    "total_dur": 698.3581999999999,
+    "click_dur": 63.6269,
     "render_during_click": 0.0,
-    "render_after_click": 673.353
+    "render_after_click": 634.7313
   },
   {
     "timing_type": "create-ten-k",
-    "timing_framework": "vue",
-    "total_dur": 792.63,
-    "click_dur": 165.609,
+    "timing_framework": "react",
+    "total_dur": 762.4920999999999,
+    "click_dur": 135.7375,
     "render_during_click": 0.0,
-    "render_after_click": 627.021
+    "render_after_click": 626.7546
   },
   {
     "timing_type": "create-ten-k",
     "timing_framework": "rust-wasm",
-    "total_dur": 839.201,
-    "click_dur": 162.198,
+    "total_dur": 776.6118,
+    "click_dur": 151.6237,
     "render_during_click": 0.0,
-    "render_after_click": 677.003
+    "render_after_click": 624.9881
+  },
+  {
+    "timing_type": "create-ten-k",
+    "timing_framework": "vue",
+    "total_dur": 791.4846,
+    "click_dur": 165.17870000000002,
+    "render_during_click": 0.0,
+    "render_after_click": 626.3059000000001
   },
   {
     "timing_type": "create-ten-k",
     "timing_framework": "svelte",
-    "total_dur": 973.378,
-    "click_dur": 132.982,
+    "total_dur": 910.4801,
+    "click_dur": 126.2057,
     "render_during_click": 0.0,
-    "render_after_click": 840.396
+    "render_after_click": 784.2744
   },
   {
     "timing_type": "create-ten-k",
     "timing_framework": "rust-fel",
-    "total_dur": 1005.296,
-    "click_dur": 339.258,
+    "total_dur": 962.3954,
+    "click_dur": 335.29290000000003,
     "render_during_click": 0.0,
-    "render_after_click": 666.038
+    "render_after_click": 627.1025
   }
 ]
