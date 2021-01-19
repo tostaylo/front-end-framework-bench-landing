@@ -1,26 +1,26 @@
 {
 	"k": {
-		"display_name": "Create One Thousand Rows",
+		"display_name": "Create One Thousand Rows (k)",
 		"definition": "Measures the duration of creating 1,000 table rows. Each row is populated with three random words, each wrapped in a 'td', picked from a list of ~10 words. Total DOM nodes ~ 3,000"
 	},
 	"ten-k": {
-		"display_name": "Create Ten Thousand Rows",
+		"display_name": "Create Ten Thousand Rows (ten-k)",
 		"definition": "Measures the duration of creating 10,000 table rows. Each row is populated with three random words, each wrapped in a 'td', picked from a list of ~10 words. Total DOM nodes ~ 30,000"
 	},
 	"update-k": {
-		"display_name": "Update One Thousand Rows",
+		"display_name": "Update One Thousand Rows (update-k)",
 		"definition": "Measures the duration of updating every 10th row of 1,000 rows with the text 'We Are Updated'"
 	},
 	"update-ten-k": {
-		"display_name": "Update Ten Thousand Rows",
+		"display_name": "Update Ten Thousand Rows (update-ten-k)",
 		"definition": "Measures the duration of updating every 10th row of 10,000 rows with the text 'We Are Updated'"
 	},
 	"clear-k": {
-		"display_name": "Clear One Thousand Rows",
+		"display_name": "Clear One Thousand Rows (clear-k)",
 		"definition": "Measures the duration of clearing the table with 1,000 rows"
 	},
 	"clear-ten-k": {
-		"display_name": "Clear Ten Thousand Rows",
+		"display_name": "Clear Ten Thousand Rows (clear-ten-k)",
 		"definition": "Measures the duration of clearing the table with 10,000 rows"
 	}
 }
